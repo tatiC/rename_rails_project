@@ -45,3 +45,9 @@ Name of your new awesome rails project
 
 The "hard part" is now my friend! Name your new rails app name and hit enter!
 Good luck!
+
+ToDo:
+====================================================================
+
+The code that renames the other 10 files and the app_name_folder :)
+Stick with me :)
