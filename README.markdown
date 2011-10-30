@@ -49,5 +49,8 @@ Good luck!
 ToDo:
 ====================================================================
 
-The code that renames the other 10 files and the app_name_folder :)
+Rename the project folder
+
+DONE:The code that renames the other 10 files and the app_name_folder :)
+
 Stick with me :)
