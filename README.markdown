@@ -1,5 +1,4 @@
-Rename a Rails Project:
-====================================================================
+# Rename a Rails Project:
 
 Ever wanted to change your rails project name?  
 Didn't want to have the trouble to update 11 files:
@@ -22,16 +21,14 @@ Maybe there's a project "out there" that does the exact same thing.
 And better...cleaner...faster...sexier...well...well  
 i did this for the purpose of learning ...
 
-My environment:
-====================================================================
+## My environment:
 
 * Mac OS X 10.6.1 (yeah! i have to update i know!)
 * ruby 1.9.2p180 (2011-02-18 revision 30909)
 * rails 3.1
 * rvm 1.6.18 by Wayne E. Seguin
 
-How to use it:
-====================================================================
+## How to use it:
 
 git clone git@github.com:tatiC/rename_rails_project.git
 
@@ -49,8 +46,6 @@ Good luck!
 ToDo:
 ====================================================================
 
-Rename the project folder
+DONE:Rename the project folder (after running the rake task i had to change dir, and then comeback to the new folder)
 
 DONE:The code that renames the other 10 files and the app_name_folder :)
-
-Stick with me :)
