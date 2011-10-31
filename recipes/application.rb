@@ -12,3 +12,8 @@ gsub_file "config/initializers/session_store.rb", "_#{app_name}_session", "_#{ne
 gsub_file "config/routes.rb", "#{app_name}".camelize, new_app_name.camelize
 gsub_file "config.ru", "#{app_name}".camelize, new_app_name.camelize
 gsub_file "Rakefile", "#{app_name}".camelize, new_app_name.camelize
+
+old_path = Dir.pwd
+old_name = app_name
+require 'fileutils'
+FileUtils.mv old_path, Dir.pwd.gsub(old_name, new_app_name)
